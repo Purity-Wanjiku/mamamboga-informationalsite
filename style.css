@@ -176,58 +176,7 @@ header{
 }
     
      
-    @media(max-width:767){
-        .footer-col{
-            width:50%;
-            margin-bottom: 30px;
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-        }
-    }
-    @media(max-width:574){
-        .footer-col{
-            width:100%;
-            
-        }
-    }
-
-
-@media(max-width:1280px){
-    header{
-        padding: 14px 2% ;
-        transform: 2s;
-    }
-    .navbar a{
-        padding: 5px 0;
-        margin: 0px 20px;
-    }
-
-  }
-  @media(max-width:1090px){
-    .navbar{
-        position: absolute;
-        top: 100%;
-        right: 2%;
-        width: 270px;
-        height:29vh ;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-
-    }
-    .navbar a{
-        display: block;
-        margin:  12px 0;
-        padding: 0px 25px;
-        transition: all .50s ease;
-    }
-
-
-  }
-
+   
     *{
      margin: 0px;
     padding: 0px; 
@@ -325,38 +274,7 @@ header{
  .Social-links{
     width: 150px;
  }
- @media screen and (max-width:768px){
-     .heading{
-        padding: 0px 20px;
-     }
-     .heading h1{
-        font-size: 30px;
-     }
-     .heading p{
-         font-size: 17px;
-         margin-bottom: 0px;
-     }
-     .container{
-        padding: 0px;
-     }
-     .about{
-         padding: 20px;
-         flex-direction: column;
-     }
-     .about-image{
-         margin-right: 0px;
-         margin-bottom: 20px;
-     }
-     .about-content{
-         padding: 0px;
-         font-size: 10px;
-     }
-     .about-content.read-more{
-         font-size: 16px;
-     }
- } 
-
-
+ 
     *{
     margin: 0;
     padding: 0;
@@ -426,33 +344,6 @@ h4,p{
     }
   }
   /* For tablets: */
-  @media only screen and (min-width: 600px) and (max-width: 768px) {
-    .wrapper {
-      width: 80%;
-    }
-    .members {
-      flex-direction: row;
-    }
-    img {
-      width: 75px;
-      height: 75px;
-    }
-  }
-  /* For desktop: */
-   @media only screen and (min-width: 769px) {
-    .wrapper {
-      width: 780px;
-    }
-    .members {
-      flex-direction: row;
-    }
-    img {
-      width: 100px;
-      height: 100px;
-    }
-  }   
-  
-
-
+ 
 
   
