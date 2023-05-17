@@ -184,7 +184,72 @@ header{
     font-family: 'Roboto',sans-serif; 
  } 
 
- .heading{
+ 
+.bodys{
+    display: flex;
+    /* justify-content: center; */
+    
+    align-items: center;
+    min-height: 60vh; 
+    background-color:#FFFFAD; 
+    padding: 50px;
+    border-radius: 50px;
+ } 
+ .wrapper{
+   /* background: wheat; */
+  width:600px ;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 10px 1px 10px rgba(0, 0, 0, 0,4); 
+} 
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 100px;
+    
+}
+
+br{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+    gap: 3rem;
+}
+.team-mem{
+    margin: 2px;
+}
+.pit{
+    width: 200px;
+    height: 200px;
+      border-radius: 50%;  
+    margin: 1px;
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+} 
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      width: 90%;
+    }
+    .members {
+      flex-direction: column;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  /* For tablets: */
+ 
+.heading{
      width: 98%;
      display: flex;
      justify-content: center;
@@ -281,69 +346,4 @@ header{
     box-sizing: border-box;
     font-family: sans-serif; 
 } 
-.bodys{
-    display: flex;
-    /* justify-content: center; */
-    
-    align-items: center;
-    min-height: 60vh; 
-    background-color:#FFFFAD; 
-    padding: 50px;
-    border-radius: 50px;
- } 
- .wrapper{
-   /* background: wheat; */
-  width:600px ;
-  border-radius: 15px;
-  padding: 5px;
-  box-shadow: 10px 1px 10px rgba(0, 0, 0, 0,4); 
-} 
-
-h1{
-    text-align: center;
-    font-size: xx-large;
-    margin-left: 100px;
-    
-}
-
-br{
-    width: 100px;
-    margin: 10px auto;
-}
-.members{
-    display: flex;
-    gap: 3rem;
-}
-.team-mem{
-    margin: 2px;
-}
-.pit{
-    width: 200px;
-    height: 200px;
-      border-radius: 50%;  
-    margin: 1px;
-}
-h4,p{
-    text-align: center;
-    font-size: 12px;
-    margin: 7px;
-} 
-
-
-/* For mobile phones: */
-@media only screen and (max-width: 600px) {
-    .wrapper {
-      width: 90%;
-    }
-    .members {
-      flex-direction: column;
-    }
-    img {
-      width: 50px;
-      height: 50px;
-    }
-  }
-  /* For tablets: */
- 
-
   
