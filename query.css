@@ -19,10 +19,12 @@ header{
     padding: 14px 2% ;
     transform: 2s;
 }
+    
 .navbar a{
     padding: 5px 0;
     margin: 0px 20px;
 }
+    
 
 }
 @media(max-width:1090px){
